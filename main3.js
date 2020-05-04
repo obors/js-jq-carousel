@@ -1,12 +1,12 @@
+//creazione della var slide per dare il valore 1 alla slide
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// la funzione per aumentarla du 1 numero
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
-// Thumbnail image controls
+//
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
