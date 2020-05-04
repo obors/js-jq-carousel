@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  display: flex;
+  height: 80vh;
+}
+.slider-container{
+  height: 655px;
+  width: 955px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+
+}
+.slides{
+  width: 700%;
+  height: 100%;
+  position: relative;
+  left: -100%:
+}
+.img{
+  width: calc(100% / 7);
+  height: 100%;
+  float: left;
+
+}
+.btn{
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid white;
+  position: absolute;
+  cursor: pointer;
+}
+.btn-prev{
+  left: 10%;
+  border-left: 2px solid white;
+  transform: rotate(-45deg);
+}
+.btn-next{
+  right: 10%;
+  border-right: 2px solid white;
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 466px){}
