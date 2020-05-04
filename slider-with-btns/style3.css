@@ -1,0 +1,48 @@
+* {
+  box-sizing:border-box;
+  margin: 0 ;
+  padding: 0;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+.mySlide {
+  display: none;
+
+}
+.btn{
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid black;
+  position: absolute;
+  cursor: pointer;
+}
+.btn-prev{
+  left: -5%;
+  border-left: 2px solid black;
+  transform: rotate(-45deg);
+  bottom: 50%;
+
+}
+.btn-next{
+  right: -5%;
+  border-right: 2px solid black;
+  transform: rotate(45deg);
+  bottom: 50%;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
